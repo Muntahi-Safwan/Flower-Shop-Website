@@ -99,7 +99,6 @@
 
 .sale {
   display: flex;
-  width: 1922px;
   height: 620px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -159,4 +158,138 @@
   margin-left: 646px;
   margin-bottom: 182px;
   margin-top: 32px;
+}
+
+/*-----------    instagram     ------------------------*/
+
+.instagram-header {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 128px;
+}
+
+.instagram-p {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 663px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  align-items: center;
+  width: 342px;
+  height: 396px;
+  flex-shrink: 0;
+  margin: 8px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image-1 {
+  margin-left: 240px;
+}
+
+.image-4 {
+  margin-right: 240px;
+}
+
+/*--------------------  Deals -------------------------------*/
+
+.deals {
+  background-image: url("./Flower\ Asset/Rectangle 9.png");
+  margin-left: 240px;
+  margin-top: 128px;
+  width: 1440px;
+  height: 449px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+/* .deals-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.deals-header {
+  padding-top: 122px;
+  padding-bottom: 10px;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.deals-p {
+  padding-bottom: 48px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.deals-input {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  border: 0px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 16px;
+}
+
+.deals-btn {
+  border: 0px;
+  margin-left: 16px;
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.deals-2 {
+  display: flex;
+  margin-left: 287px;
+  margin-bottom: 121px;
 }
