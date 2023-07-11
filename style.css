@@ -103,12 +103,7 @@
   margin-top: 48px;
   justify-content: space-between;
 }
-/* 
-.featured-flowers::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
+
 .flower1-bg {
   width: 464px;
   height: 538px;
@@ -402,13 +397,6 @@
   position: relative;
 }
 
-/* .deals-txt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
 .deals-header {
   padding-top: 122px;
   padding-bottom: 10px;
@@ -471,7 +459,7 @@
   margin-bottom: 121px;
 }
 
-/* Footer */
+/*------------------------------------- Footer ----------------------------------------------*/
 
 footer {
   width: 1922px;
